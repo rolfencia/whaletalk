@@ -10,6 +10,11 @@ Once we have converted text to the whale language, the result is sung slowly, as
 
 To accomplish this translation, we can use our knowledge of loops. Let’s get started!
 
+
+
+
+-------------
+
 1 - Create a variable named input that is equal to any phrase you’d like. This variable will contain the text you want to translate into “whale talk”.
 
 2- Whales only speak in vowels so you need an array of vowels to be extracted from the input variable. Set the array equal to a variable named vowels that will not be updated.
