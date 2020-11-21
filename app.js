@@ -2,10 +2,10 @@ let whaleTalk = (str) =>
   str
     .match(/[aeiou]/g)
     .join("")
-    .replace("e", "ee")
-    .replace("u", "uu");
+    .replace(/e/g, "ee")
+    .replace(/u/g, "uu");
 
-console.log(whaleTalk("hi human ice"));
+console.log(whaleTalk("hi humanus ice"));
 
 // str.split('').filter(letra => letra == /[aeiou]/g);
 
